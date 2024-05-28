@@ -80,7 +80,7 @@ fun CircularProgressBar(viewModel: MainViewModel = viewModel(), modifier: Modifi
 fun PdfWebview(viewModel: MainViewModel = viewModel()) {
 
 //    var url by remember { mutableStateOf("https://stevdza-san.com") }
-    var url by remember { mutableStateOf("https://drive.google.com/file/d/168HtsWKFXA5-uqrG21QvQNfEJPvyhORJ/view?usp=sharing") }
+    var url by remember { mutableStateOf("https://drive.google.com/file/d/1tJPv8QvCvDBAPYxHvLSseHAUeRqu8HiP/view") }
     val state = rememberWebViewState(url = url)
     val navigator = rememberWebViewNavigator()
     var textFieldValue by remember(state.content.getCurrentUrl()) {
